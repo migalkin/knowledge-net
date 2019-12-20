@@ -1,0 +1,2 @@
+0.8591720430378276		SimpleArgument(a Moldovan alternative rock band from Chișinău,List([49, 95)))	Relation(formed in,List([97, 103), [104, 106)))	TemporalArgument(1996,List([107, 111)))	Gândul Mâței (Translation: The cat's thought) is a Moldovan alternative rock band from Chișinău, formed in 1996.
+0.9445721975409912		SimpleArgument(Gândul Mâței,List([0, 12)))	Relation(is,List([46, 48)))	SimpleArgument(a Moldovan alternative rock band from Chișinău,List([49, 95)))	Gândul Mâței (Translation: The cat's thought) is a Moldovan alternative rock band from Chișinău, formed in 1996.

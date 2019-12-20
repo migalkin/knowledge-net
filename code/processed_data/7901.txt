@@ -1,0 +1,6 @@
+0.923303574434787		SimpleArgument(Anjuman-i-Ulama-i-Bangala,List([0, 25)))	Relation(was,List([26, 29)))	SimpleArgument(an association of Muslim religious leaders in the Bengal Presidency of British India,List([30, 114)))	Anjuman-i-Ulama-i-Bangala was an association of Muslim religious leaders in the Bengal Presidency of British India.
+0.15939332484157967		SimpleArgument(It,List([0, 2)))	Relation(was founded in,List([3, 14), [38, 40)))	TemporalArgument(1913,List([41, 45)))	It was founded at Baniapara of Bagura in 1913.
+0.4978219019954182		SimpleArgument(It,List([0, 2)))	Relation(was founded at,List([3, 14), [15, 17)))	SpatialArgument(Baniapara of Bagura,List([18, 37)))	It was founded at Baniapara of Bagura in 1913.
+0.7561205229075092		SimpleArgument(Its official publication,List([0, 24)))	Relation(was,List([25, 28)))	SimpleArgument(Al-Eslam,List([29, 37)))	Its official publication was Al-Eslam.
+0.3048426724432105		SimpleArgument(It,List([0, 2)))	Relation(merged into the Jamiat Ulema-e-Hind,List([9, 15), [16, 44)))	TemporalArgument(later,List([3, 8)))	It later merged into the Jamiat Ulema-e-Hind.
+0.45592395356914683		SimpleArgument(It,List([0, 2)))	Relation(merged into,List([9, 15), [16, 20)))	SimpleArgument(the Jamiat Ulema-e-Hind,List([21, 44)))	It later merged into the Jamiat Ulema-e-Hind.

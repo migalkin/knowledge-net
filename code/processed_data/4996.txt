@@ -1,0 +1,6 @@
+0.9527410621066101		SimpleArgument(Sergio Garcia,List([0, 13)))	Relation(is,List([14, 16)))	SimpleArgument(a Filipino actor,List([17, 33)))	Sergio Garcia is a Filipino actor.
+0.3929209860966329		SimpleArgument(He,List([0, 2)))	Relation(is under,List([3, 5), [16, 21)))	SimpleArgument(contract with ABS - Star Magic,List([22, 52)))	He is currently under contract with ABS-CBN and Star Magic.
+0.22015391053105568		SimpleArgument(He,List([0, 2)))	Relation(is under contract with ABS - Star Magic,List([3, 5), [16, 52)))	TemporalArgument(currently,List([6, 15)))	He is currently under contract with ABS-CBN and Star Magic.
+0.3929209860966329		SimpleArgument(He,List([0, 2)))	Relation(is under,List([3, 5), [16, 21)))	SimpleArgument(contract with ABS - CBN,List([22, 45)))	He is currently under contract with ABS-CBN and Star Magic.
+0.2724783810037946		SimpleArgument(He,List([0, 2)))	Relation(is under contract with ABS - CBN,List([3, 5), [16, 45)))	TemporalArgument(currently,List([6, 15)))	He is currently under contract with ABS-CBN and Star Magic.
+0.4978219019954182		SimpleArgument(He,List([0, 2)))	Relation(was launched under,List([3, 15), [16, 21)))	SpatialArgument(Star Magic 11,List([22, 35)))	He was launched under Star Magic 11 with fellow Anim-E members: Emman Abeleda, Mhyco Aquino, Rayver Cruz, Rodjun Cruz, John Wayne Sace and Mico Aytona.

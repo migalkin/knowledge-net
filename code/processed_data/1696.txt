@@ -1,0 +1,3 @@
+0.2743125465364158		SimpleArgument(I,List({29}))	Relation(contribute,List([47, 57)))	SimpleArgument(my knowledge,List([58, 70)))	To obtain a rewarding career where I can utilize and contribute my skills and knowledge.
+0.2743125465364158		SimpleArgument(I,List({29}))	Relation(contribute,List([47, 57)))	SimpleArgument(my skills,List([58, 67)))	To obtain a rewarding career where I can utilize and contribute my skills and knowledge.
+0.8937052396947953		SimpleArgument(a rewarding career,List([10, 28)))	Relation(can utilize,List([31, 42)))	SimpleArgument(I,List({29}))	To obtain a rewarding career where I can utilize and contribute my skills and knowledge.

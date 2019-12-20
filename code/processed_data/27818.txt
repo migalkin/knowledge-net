@@ -1,0 +1,1 @@
+0.945626952328978		SimpleArgument(Tony Pierce-Roberts, BSC (born 1945 in Birkenhead,List([0, 49)))	Relation(is,List([60, 62)))	SimpleArgument(a British cinematographer,List([63, 88)))	Tony Pierce-Roberts, BSC (born 1945 in Birkenhead, England) is a British cinematographer.

@@ -1,0 +1,3 @@
+0.9382554258342916		SimpleArgument(Laura Ashley,List([0, 12)))	Relation(was born on,List([13, 21), [22, 24)))	TemporalArgument(September 7,List([25, 36)))	Laura Ashley was born on September 7, 1925 in Dolwais, Merthyr Tydfil, Wales as Laura Mountney.
+0.5680679595514976		SimpleArgument(Laura Ashley Laura Ashley,List([0, 3)))	Relation(was,List([4, 7)))	SimpleArgument(married to Bernard Ashley,List([8, 33)))	She was married to Bernard Ashley.
+0.4978219019954182		SimpleArgument(Laura Ashley Laura Ashley,List([0, 3)))	Relation(died on,List([4, 8), [9, 11)))	TemporalArgument(September 17,List([12, 24)))	She died on September 17, 1985 in Gloucestershire, England.

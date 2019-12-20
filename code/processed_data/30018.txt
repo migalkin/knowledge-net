@@ -1,0 +1,2 @@
+0.9436740204769645		SimpleArgument(Manoranjan Hazra,List([0, 16)))	Relation(was,List([17, 20)))	SimpleArgument(an Indian politician,List([21, 41)))	Manoranjan Hazra was an Indian politician.
+0.4978219019954182		SimpleArgument(He,List([0, 2)))	Relation(was elected to,List([3, 14), [15, 17)))	SimpleArgument(the Lok Sabha,List([18, 31)))	He was elected to the Lok Sabha, lower house of the Parliament of India from Arambagh in West Bengal as a member of the Communist Party of India (Marxist).

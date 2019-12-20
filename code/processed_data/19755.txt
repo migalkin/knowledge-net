@@ -1,0 +1,5 @@
+0.9397554176335701		SimpleArgument(Blue Bottle Coffee,List([0, 18)))	Relation(is,List([27, 29)))	SimpleArgument(a coffee roaster,List([30, 46)))	Blue Bottle Coffee, Inc. is a coffee roaster and retailer headquartered in Oakland, California, United States.
+0.9929999709129333		SimpleArgument(a majority stake in the company,List([0, 0)))	Relation(was acquired In,List([0, 0)))	SimpleArgument(2017,List(null))	In 2017, a majority stake in the company was acquired by Nestlé.
+0.8764343254071916		SimpleArgument(a majority stake in the company,List([9, 40)))	Relation(was acquired In,List([0, 44), [45, 53)))	TemporalArgument(2017,List([3, 7)))	In 2017, a majority stake in the company was acquired by Nestlé.
+0.9428419046403852		SimpleArgument(a majority stake in the company,List([9, 40)))	Relation(was acquired by,List([41, 53), [54, 56)))	SimpleArgument(Nestlé,List([57, 63)))	In 2017, a majority stake in the company was acquired by Nestlé.
+0.9030401971054747		SimpleArgument(The company,List([0, 11)))	Relation(focuses on,List([12, 19), [20, 22)))	SimpleArgument(single-origin beans,List([23, 42)))	The company focuses on single-origin beans.

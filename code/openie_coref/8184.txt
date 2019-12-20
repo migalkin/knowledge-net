@@ -1,0 +1,2 @@
+0.5926659981335703		SimpleArgument(he,List([17, 19)))	Relation(was awarded In,List([0, 23), [24, 31)))	TemporalArgument(February 2010,List([3, 16)))	In February 2010 he was awarded the Order of Yaroslav the Wise (second degree).
+0.4978219019954182		SimpleArgument(he,List([17, 19)))	Relation(was awarded,List([20, 31)))	SimpleArgument(the Order of Yaroslav,List([32, 53)))	In February 2010 he was awarded the Order of Yaroslav the Wise (second degree).

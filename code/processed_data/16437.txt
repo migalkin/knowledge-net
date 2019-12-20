@@ -1,0 +1,7 @@
+0.22015391053105568		SimpleArgument(She,List([0, 3)))	Relation(was known,List([4, 7), [23, 28)))	TemporalArgument(affectionately,List([8, 22)))	She was affectionately known to peers and fans as Fei-fei (lit.
+0.8475740955622253		SimpleArgument(peers as Fei - fei,List([32, 50)))	Relation(lit,List([53, 56)))		She was affectionately known to peers and fans as Fei-fei (lit.
+0.22015391053105568		SimpleArgument(She,List([0, 3)))	Relation(was known to peers as Fei - fei,List([4, 7), [23, 28), [29, 50)))	TemporalArgument(affectionately,List([8, 22)))	She was affectionately known to peers and fans as Fei-fei (lit.
+0.3929209860966329		SimpleArgument(She,List([0, 3)))	Relation(was known to,List([4, 7), [23, 28), [29, 31)))	SimpleArgument(peers as Fei - fei,List([32, 50)))	She was affectionately known to peers and fans as Fei-fei (lit.
+0.8550806581371961		SimpleArgument(Shum,List([0, 4)))	Relation(died at,List([5, 9), [10, 12)))	TemporalArgument(8:38 a.m.,List([13, 22)))	Shum died at 8:38 a.m.
+0.7569295193979729		SimpleArgument(her condition,List([39, 52)))	Relation(worsened on,List([13, 15), [53, 61)))	TemporalArgument(19 February 2008,List([16, 32)))	(local time) on 19 February 2008 where her condition worsened due to pleural effusion , aged 62.
+0.724144061965746		SimpleArgument(her condition,List([39, 52)))	Relation(worsened,List([53, 61)))	TemporalArgument(local time,List([1, 11)))	(local time) on 19 February 2008 where her condition worsened due to pleural effusion , aged 62.

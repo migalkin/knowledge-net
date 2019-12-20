@@ -1,0 +1,2 @@
+0.949419443712137		SimpleArgument(Rangdi Wetterhus Krogstad,List([0, 25)))	Relation(is,List([46, 48)))	SimpleArgument(a Norwegian politician for the Conservative Party,List([49, 98)))	Rangdi Wetterhus Krogstad (born 5 March 1966) is a Norwegian politician for the Conservative Party.
+0.949419443712137		SimpleArgument(Rangdi Wetterhus Krogstad,List([0, 25)))	Relation(born,List([27, 31)))	TemporalArgument(5 March 1966,List([32, 44)))	Rangdi Wetterhus Krogstad (born 5 March 1966) is a Norwegian politician for the Conservative Party.

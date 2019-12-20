@@ -1,0 +1,3 @@
+0.3853208301752743		SimpleArgument(IvanLatif,List([32, 41)))	Relation([is] soul mate [of],List([22, 31)))	SimpleArgument(mine,List([19, 21)))	Mom for my beautiful daughter Luna Vaneira Latif and A Wife for my soul mate IvanLatif...Life is wonderful :)
+0.3853208301752743		SimpleArgument(Luna Vaneira Latif,List([30, 48)))	Relation([is] beautiful daughter [of],List([11, 29)))	SimpleArgument(mine,List([8, 10)))	Mom for my beautiful daughter Luna Vaneira Latif and A Wife for my soul mate IvanLatif...Life is wonderful :)
+0.9181538107823964		SimpleArgument(Life,List([53, 57)))	Relation(is,List([58, 60)))	SimpleArgument(wonderful :),List([61, 73)))	Mom for my beautiful daughter Luna Vaneira Latif and A Wife for my soul mate IvanLatif...Life is wonderful :)

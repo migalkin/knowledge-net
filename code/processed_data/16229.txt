@@ -1,0 +1,6 @@
+0.949419443712137		SimpleArgument(Harry Lowes Cowans,List([0, 18)))	Relation(was,List([55, 58)))	SimpleArgument(a British Labour Party politician,List([59, 92)))	Harry Lowes Cowans (19 December 1932 – 3 October 1985) was a British Labour Party politician.
+0.9324144673478683		SimpleArgument(Cowans,List([0, 6)))	Relation(was elected,List([7, 18)))	SimpleArgument(Member of Parliament,List([19, 39)))	Cowans was elected Member of Parliament for Newcastle-upon-Tyne Central at a 1976 by-election.
+0.547338059826203		SimpleArgument(he,List([24, 26)))	Relation(was elected for Tyne Bridge in 1983 After,List([0, 30), [31, 57), [58, 62)))	TemporalArgument(boundary changes,List([6, 22)))	After boundary changes, he was elected for Tyne Bridge in 1983.
+0.4978219019954182		SimpleArgument(he,List([24, 26)))	Relation(was elected for,List([27, 38), [39, 42)))	SimpleArgument(Tyne Bridge in 1983,List([43, 62)))	After boundary changes, he was elected for Tyne Bridge in 1983.
+0.6605795292247885		SimpleArgument(office,List([11, 17)))	Relation(aged in,List([18, 22), [26, 28)))	TemporalArgument(1985,List([29, 33)))	He died in office aged 52 in 1985.
+0.45170382506656653		SimpleArgument(He,List([0, 2)))	Relation(died in,List([3, 7), [8, 10)))	SpatialArgument(office,List([11, 17)))	He died in office aged 52 in 1985.

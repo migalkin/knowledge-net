@@ -1,0 +1,3 @@
+0.9340463819568752		SimpleArgument(Jonny Finstad,List([0, 13)))	Relation(is,List([33, 35)))	SimpleArgument(a Norwegian politician,List([36, 58)))	Jonny Finstad (born 19 May 1966) is a Norwegian politician.
+0.9445721975409912		SimpleArgument(Jonny Finstad,List([0, 13)))	Relation(born,List([15, 19)))	TemporalArgument(19 May 1966,List([20, 31)))	Jonny Finstad (born 19 May 1966) is a Norwegian politician.
+0.6138676038426771		SimpleArgument(Jonny Finstad Jonny Finstad (born 19 May 1966),List([0, 2)))	Relation(was elected,List([3, 14)))	SimpleArgument(representative to the Storting for the period 2017-2021 for the Conservative Party,List([15, 97)))	He was elected representative to the Storting for the period 2017–2021 for the Conservative Party.

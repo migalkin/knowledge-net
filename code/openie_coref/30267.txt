@@ -1,0 +1,6 @@
+0.8847999636040884		SimpleArgument(International Professional Singer,List([0, 33)))	Relation([is],List([0, 33)))	SimpleArgument(Cabaret Performer,List([35, 52)))	International Professional Singer, Cabaret Performer, Vocal coach ETC.
+0.19710908353723788		SimpleArgument(I,List({0}))	Relation(answer to,List([7, 13), [14, 16)))	SimpleArgument(more,List([17, 21)))	I also answer to Dicko, Dickie, Dickers and more, and no, I'm NOT David's daughter!
+0.41051436014453063		SimpleArgument(I,List({0}))	Relation(answer to,List([7, 13), [14, 16)))	SimpleArgument(Dickers,List([17, 24)))	I also answer to Dicko, Dickie, Dickers and more, and no, I'm NOT David's daughter!
+0.45592395356914683		SimpleArgument(I,List({0}))	Relation(answer to,List([7, 13), [14, 16)))	SimpleArgument(Dickie,List([17, 23)))	I also answer to Dicko, Dickie, Dickers and more, and no, I'm NOT David's daughter!
+0.45592395356914683		SimpleArgument(I,List({0}))	Relation(answer to,List([7, 13), [14, 16)))	SimpleArgument(Dicko,List([17, 22)))	I also answer to Dicko, Dickie, Dickers and more, and no, I'm NOT David's daughter!
+0.5680679595514976		SimpleArgument(I,List({5}))	Relation('m NOT,List([7, 13)))	SimpleArgument(David 's daughter,List([14, 31)))	I also answer to Dicko, Dickie, Dickers and more, and no, I'm NOT David's daughter!

@@ -1,0 +1,3 @@
+0.9105129651916236		SimpleArgument(Share,List([0, 5)))	Relation(Become,List([8, 14)))	SimpleArgument(a Fan EDM / Electro / Dubstep Ann Arbor,List([15, 54)))	Share   Become a Fan EDM / Electro / Dubstep Ann Arbor, MI
+0.8442879225995007		SimpleArgument(Overview  Music  Videos,List([0, 23)))	Relation(Shows,List([25, 30)))		Overview  Music  Videos  Shows
+0.831157403585408		SimpleArgument(All Past,List([0, 8)))	Relation(Shows,List([9, 14)))		All Past Shows »  

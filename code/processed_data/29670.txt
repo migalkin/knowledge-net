@@ -1,0 +1,2 @@
+0.9647009540301618		SimpleArgument(Ralph Clark,List([0, 11)))	Relation(was,List([24, 27)))	SimpleArgument(an English tanner, notable for being the first Mayor of Chesterfield,List([28, 96)))	Ralph Clark (died 1660) was an English tanner, notable for being the first Mayor of Chesterfield.
+0.7582513716504754		SimpleArgument(Ralph Clark,List([0, 11)))	Relation(died,List([13, 17)))		Ralph Clark (died 1660) was an English tanner, notable for being the first Mayor of Chesterfield.

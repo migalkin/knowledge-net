@@ -1,0 +1,1 @@
+0.9699974998635915		SimpleArgument(Boonton Township,List([0, 16)))	Relation(is,List([17, 19)))	SimpleArgument(a township in Morris County, New Jersey, United States,List([20, 74)))	Boonton Township is a township in Morris County, New Jersey, United States.

@@ -1,0 +1,1 @@
+0.9481947648689547		SimpleArgument(Jane Kennedy Jane Elizabeth Kennedy (née Hodgson,List([0, 7)))	Relation(was,List([8, 11)))	SimpleArgument(the Labour Member of Parliament,List([12, 43)))	Kennedy was the Labour Member of Parliament (MP) for Liverpool Broadgreen from 1992 until 1997 and for Liverpool Wavertree from 1997 until the 2010 general election.

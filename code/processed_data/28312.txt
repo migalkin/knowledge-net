@@ -1,0 +1,2 @@
+0.9143456855143793		SimpleArgument(Kim McLagan,List([0, 11)))	Relation(was a British model during,List([87, 90), [91, 106), [107, 113)))	TemporalArgument(the 1960s,List([114, 123)))	Kim McLagan (née Maryse Elizabeth Patricia Kerrigan; 30 December 1948 - 2 August 2006) was a British model during the 1960s.
+0.9340463819568752		SimpleArgument(Kim McLagan,List([0, 11)))	Relation(was,List([87, 90)))	SimpleArgument(a British model,List([91, 106)))	Kim McLagan (née Maryse Elizabeth Patricia Kerrigan; 30 December 1948 - 2 August 2006) was a British model during the 1960s.

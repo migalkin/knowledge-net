@@ -1,0 +1,1 @@
+0.9699974998635915		SimpleArgument(Mansfield Township,List([0, 18)))	Relation(is,List([19, 21)))	SimpleArgument(a township in Warren County, New Jersey, United States,List([22, 76)))	Mansfield Township is a township in Warren County, New Jersey, United States.

@@ -1,0 +1,4 @@
+0.9436740204769645		SimpleArgument(Jason Goldberg,List([0, 14)))	Relation(is,List([15, 17)))	SimpleArgument(an American internet entrepreneur,List([18, 51)))	Jason Goldberg is an American internet entrepreneur.
+0.45170382506656653		SimpleArgument(He,List([0, 2)))	Relation(serves as,List([3, 9), [10, 12)))	SimpleArgument(CEO of e - commerce sites,List([13, 38)))	He serves as the Founder and CEO of e-commerce sites Fab and Hem.
+0.4978219019954182		SimpleArgument(He,List([0, 2)))	Relation(serves as,List([3, 9), [10, 12)))	SimpleArgument(the Founder of e - commerce sites,List([13, 46)))	He serves as the Founder and CEO of e-commerce sites Fab and Hem.
+0.4978219019954182		SimpleArgument(He,List([0, 2)))	Relation(is from,List([3, 5), [6, 10)))	SimpleArgument(Rockville,List([11, 20)))	He is from Rockville, Maryland.

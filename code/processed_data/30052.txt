@@ -1,0 +1,1 @@
+0.9262990687352972		SimpleArgument(Eldrid Erdal,List([0, 12)))	Relation(was,List([49, 52)))	SimpleArgument(a Norwegian politician for the Liberal Party,List([53, 97)))	Eldrid Erdal (30 January 1901 – 1 December 1997) was a Norwegian politician for the Liberal Party.

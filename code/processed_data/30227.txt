@@ -1,0 +1,4 @@
+0.9445721975409912		SimpleArgument(Behice Sultan,List([0, 13)))	Relation(was,List([52, 55)))	SimpleArgument(an Ottoman princess,List([56, 75)))	Behice Sultan (26 August 1848 – 21 December 1876) was an Ottoman princess, daughter of Sultan Abdulmejid I and Nesrin Hanım.
+0.5680679595514976		SimpleArgument(She,List([0, 3)))	Relation(was,List([4, 7)))	SimpleArgument(Mehmed VI,List([8, 17)))	She was the half-sister of Sultans Murad V, Abdul Hamid II, Mehmed V, and Mehmed VI.
+0.38089450366724514		SimpleArgument(Abdul Hamid II,List([47, 61)))	Relation([is] the half - sister of,List([8, 28)))	SimpleArgument(Sultans Murad V,List([29, 44)))	She was the half-sister of Sultans Murad V, Abdul Hamid II, Mehmed V, and Mehmed VI.
+0.5680679595514976		SimpleArgument(She,List([0, 3)))	Relation(was,List([4, 7)))	SimpleArgument(the half - sister of Sultans Murad V,List([8, 44)))	She was the half-sister of Sultans Murad V, Abdul Hamid II, Mehmed V, and Mehmed VI.

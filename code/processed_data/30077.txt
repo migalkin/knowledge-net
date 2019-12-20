@@ -1,0 +1,1 @@
+0.9538634956324158		SimpleArgument(Ole Klemet J. Sara,List([0, 18)))	Relation(was,List([49, 52)))	SimpleArgument(a Norwegian politician for the Labour Party,List([53, 96)))	Ole Klemet J. Sara (28 May 1936 – 29 April 2013) was a Norwegian politician for the Labour Party.

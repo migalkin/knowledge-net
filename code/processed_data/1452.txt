@@ -1,0 +1,1 @@
+0.9538634956324158		SimpleArgument(User Friendly Media Inc,List([0, 23)))	Relation(is,List([25, 27)))	SimpleArgument(a wholly owned subsidiary of Vast Capital Pool Ltd.,List([28, 79)))	User Friendly Media Inc. is a wholly owned subsidiary of Vast Capital Pool Ltd.

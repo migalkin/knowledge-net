@@ -1,0 +1,3 @@
+0.961961301429607		SimpleArgument(birth unknown - died October 23, 1885,List([20, 57)))	Relation(was,List([67, 70)))	SimpleArgument(a Canadian manufacturer,List([71, 94)))	James G. Cockshutt (birth unknown – died October 23, 1885, age 34) was a Canadian manufacturer.
+0.7665350501724939		SimpleArgument(The son,List([0, 7)))	Relation(educated,List([8, 16)))	SpatialArgument(there,List([17, 22)))	The son of Ignatius Cockshutt, he was born in Brantford, Canada West and educated there.
+0.4978219019954182		SimpleArgument(James G. Cockshutt James G. Cockshutt (birth unknown –,List([32, 34)))	Relation(was born in,List([35, 43), [44, 46)))	SpatialArgument(Brantford,List([47, 56)))	The son of Ignatius Cockshutt, he was born in Brantford, Canada West and educated there.

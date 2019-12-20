@@ -1,0 +1,3 @@
+0.5860000252723694		SimpleArgument(Aerzen Svenska AB,List([0, 0)))	Relation(has Aerzener Maschinenfabrik GmbH of,List([0, 0)))	SimpleArgument(100 % daughter company,List(null))	Aerzen Svenska AB is a 100% daughter company of Aerzener Maschinenfabrik GmbH.
+0.9729999899864197		SimpleArgument(Aerzen Svenska AB,List([0, 0)))	Relation(is,List([0, 0)))	SimpleArgument(100 % daughter company,List(null))	Aerzen Svenska AB is a 100% daughter company of Aerzener Maschinenfabrik GmbH.
+0.9569065201547587		SimpleArgument(Aerzen Svenska AB,List([0, 17)))	Relation(is,List([18, 20)))	SimpleArgument(a 100% daughter company of Aerzener Maschinenfabrik GmbH,List([21, 77)))	Aerzen Svenska AB is a 100% daughter company of Aerzener Maschinenfabrik GmbH.

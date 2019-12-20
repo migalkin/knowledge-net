@@ -1,0 +1,1 @@
+0.6783685094789625		SimpleArgument(I,List({0}))	Relation(am,List([2, 4)))	SimpleArgument(a PhD candidate at NC State University in the field of Chemical Engineering,List([5, 80)))	I am a PhD candidate at NC State University in the field of Chemical Engineering, with my BSE from Tulane University.

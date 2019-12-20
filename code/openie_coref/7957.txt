@@ -1,0 +1,7 @@
+0.9710295142851655		SimpleArgument(Russell J. Eddie (born June 9, 1938,List([0, 35)))	Relation(was,List([37, 40)))	SimpleArgument(an American politician in the state of Iowa,List([41, 84)))	Russell J. Eddie (born June 9, 1938) was an American politician in the state of Iowa.
+0.949419443712137		SimpleArgument(Russell J. Eddie,List([0, 16)))	Relation(born,List([18, 22)))	TemporalArgument(June 9, 1938,List([23, 35)))	Russell J. Eddie (born June 9, 1938) was an American politician in the state of Iowa.
+0.9324144673478683		SimpleArgument(Eddie,List([0, 5)))	Relation(was born in,List([6, 14), [15, 17)))	SpatialArgument(Wayne,List([18, 23)))	Eddie was born in Wayne, Nebraska.
+0.5222094630377523		SimpleArgument(Eddie,List([0, 2)))	Relation(was,List([3, 6)))	SimpleArgument(a farmer,List([7, 15)))	He attended Buena Vista College and was a farmer.
+0.4978219019954182		SimpleArgument(Eddie,List([0, 2)))	Relation(attended,List([3, 11)))	SimpleArgument(Buena Vista College,List([12, 31)))	He attended Buena Vista College and was a farmer.
+0.4978219019954182		SimpleArgument(Eddie,List([0, 2)))	Relation(served in the Iowa House of Representatives from,List([3, 9), [10, 46), [47, 51)))	TemporalArgument(1987 to 2003, as a Republican,List([52, 81)))	He served in the Iowa House of Representatives from 1987 to 2003, as a Republican.
+0.4978219019954182		SimpleArgument(Eddie,List([0, 2)))	Relation(served in,List([3, 9), [10, 12)))	SimpleArgument(the Iowa House of Representatives,List([13, 46)))	He served in the Iowa House of Representatives from 1987 to 2003, as a Republican.

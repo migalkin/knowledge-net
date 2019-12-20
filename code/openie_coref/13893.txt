@@ -1,0 +1,6 @@
+0.9929999709129333		SimpleArgument(Mart Heisey,List([0, 0)))	Relation(was born in,List([0, 0)))	SimpleArgument(1865,List(null))	Mart Heisey was born in 1865.
+0.816575697747956		SimpleArgument(Mart Heisey,List([0, 11)))	Relation(was born in,List([12, 20), [21, 23)))	TemporalArgument(1865,List([24, 28)))	Mart Heisey was born in 1865.
+0.9045207649554154		SimpleArgument(an actor,List([7, 15)))	Relation(known for,List([17, 22), [23, 26)))	SimpleArgument(The Man of Him,List([27, 41)))	He was an actor, known for The Man of Him (1913), For $5,000 a Year (1915) and The Wolf (1914).
+0.6783685094789625		SimpleArgument(Mart Heisey Mart Heisey,List([0, 2)))	Relation(was,List([3, 6)))	SimpleArgument(an actor, known for The Man of Him (1913), For $5,000 a Year (1915) and,List([7, 78)))	He was an actor, known for The Man of Him (1913), For $5,000 a Year (1915) and The Wolf (1914).
+0.5680679595514976		SimpleArgument(Mart Heisey Mart Heisey,List([0, 2)))	Relation(was,List([3, 6)))	SimpleArgument(married to Elva Nelson,List([7, 29)))	He was married to Elva Nelson.
+0.4978219019954182		SimpleArgument(Mart Heisey Mart Heisey,List([0, 2)))	Relation(died on,List([3, 7), [8, 10)))	TemporalArgument(April 21, 1925 in Chicago,List([11, 36)))	He died on April 21, 1925 in Chicago, Illinois, USA.

@@ -1,0 +1,2 @@
+0.3808531264769592		SimpleArgument(About Management Board Trevor Munday,List([115, 151)))	Relation([is] News Contact [of],List([102, 114)))	SimpleArgument(Investor Relations Citizenship,List([71, 101)))	Country Operations  Careers  Barclays PLC Barclays Africa Group  About Us Investor Relations Citizenship News Contact     About Us  Board and Management  Board  Trevor Munday
+0.1948871917044894		SimpleArgument(we,List([4, 6)))	Relation(are,List([7, 10)))		Who we are

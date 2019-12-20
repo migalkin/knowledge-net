@@ -1,0 +1,4 @@
+0.9538634956324158		SimpleArgument(Irwin ( died 1752,List([0, 17)))	Relation(was,List([20, 23)))	SimpleArgument(a British Army officer,List([24, 46)))	Lieutenant-General Alexander Irvine or Irwin (died 1752) was a British Army officer.
+0.7735794665865495		SimpleArgument(Irwin,List([0, 5)))	Relation(died,List([8, 12)))	SpatialArgument(1752,List([13, 17)))	Lieutenant-General Alexander Irvine or Irwin (died 1752) was a British Army officer.
+0.9681838090774921		SimpleArgument(Lieutenant - General Alexander Irvine ( died 1752,List([0, 49)))	Relation(was,List([52, 55)))	SimpleArgument(a British Army officer,List([56, 78)))	Lieutenant-General Alexander Irvine or Irwin (died 1752) was a British Army officer.
+0.8341272337555721		SimpleArgument(Lieutenant - General Alexander Irvine,List([0, 37)))	Relation(died,List([40, 44)))	SpatialArgument(1752,List([45, 49)))	Lieutenant-General Alexander Irvine or Irwin (died 1752) was a British Army officer.

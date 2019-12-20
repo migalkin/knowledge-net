@@ -1,0 +1,3 @@
+0.9397554176335701		SimpleArgument(David Civera Gracia,List([0, 19)))	Relation(is,List([70, 72)))	SimpleArgument(a Spanish singer,List([73, 89)))	David Civera Gracia (born in Teruel, Aragón, Spain on 8 January 1979) is a Spanish singer.
+0.902318928242591		SimpleArgument(David Civera Gracia,List([0, 19)))	Relation(born on,List([21, 25), [51, 53)))	TemporalArgument(8 January 1979,List([54, 68)))	David Civera Gracia (born in Teruel, Aragón, Spain on 8 January 1979) is a Spanish singer.
+0.9339862216393666		SimpleArgument(David Civera Gracia,List([0, 19)))	Relation(born in,List([21, 25), [26, 28)))	SpatialArgument(Teruel,List([29, 35)))	David Civera Gracia (born in Teruel, Aragón, Spain on 8 January 1979) is a Spanish singer.

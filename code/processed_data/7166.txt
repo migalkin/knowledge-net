@@ -1,0 +1,5 @@
+0.9397554176335701		SimpleArgument(William Thomas Winters,List([0, 22)))	Relation(is,List([45, 47)))	SimpleArgument(an American banker,List([48, 66)))	William Thomas Winters (born September 1961) is an American banker.
+0.949419443712137		SimpleArgument(William Thomas Winters,List([0, 22)))	Relation(born,List([24, 28)))	TemporalArgument(September 1961,List([29, 43)))	William Thomas Winters (born September 1961) is an American banker.
+0.5926659981335703		SimpleArgument(he,List([14, 16)))	Relation(replaced Peter Sands In,List([0, 2), [17, 31), [32, 37)))	TemporalArgument(June 2015,List([3, 12)))	In June 2015, he replaced Peter Sands as CEO of Standard Chartered.
+0.4978219019954182		SimpleArgument(he,List([14, 16)))	Relation(replaced Peter Sands as,List([17, 25), [26, 37), [38, 40)))	SimpleArgument(CEO of Standard Chartered,List([41, 66)))	In June 2015, he replaced Peter Sands as CEO of Standard Chartered.
+0.4978219019954182		SimpleArgument(he,List([14, 16)))	Relation(replaced,List([17, 25)))	SimpleArgument(Peter Sands,List([26, 37)))	In June 2015, he replaced Peter Sands as CEO of Standard Chartered.

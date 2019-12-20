@@ -1,0 +1,7 @@
+0.9329286852051247		SimpleArgument(B&E Shoe Service,List([0, 16)))	Relation(specializes in,List([17, 28), [29, 31)))	SimpleArgument(zipper repairs,List([32, 46)))	B&E Shoe Service specializes in boot, shoe, luggage and zipper repairs.
+0.9329286852051247		SimpleArgument(B&E Shoe Service,List([0, 16)))	Relation(specializes in,List([17, 28), [29, 31)))	SimpleArgument(luggage,List([32, 39)))	B&E Shoe Service specializes in boot, shoe, luggage and zipper repairs.
+0.9329286852051247		SimpleArgument(B&E Shoe Service,List([0, 16)))	Relation(specializes in,List([17, 28), [29, 31)))	SimpleArgument(shoe,List([32, 36)))	B&E Shoe Service specializes in boot, shoe, luggage and zipper repairs.
+0.9329286852051247		SimpleArgument(B&E Shoe Service,List([0, 16)))	Relation(specializes in,List([17, 28), [29, 31)))	SimpleArgument(boot,List([32, 36)))	B&E Shoe Service specializes in boot, shoe, luggage and zipper repairs.
+0.45170382506656653		SimpleArgument(We,List([0, 2)))	Relation(also do,List([3, 10)))	SimpleArgument(custom leather work including holsters,List([11, 49)))	We also do custom leather work including knife sheaths and holsters.
+0.45170382506656653		SimpleArgument(We,List([0, 2)))	Relation(also do,List([3, 10)))	SimpleArgument(custom leather work including knife sheaths,List([11, 54)))	We also do custom leather work including knife sheaths and holsters.
+0.45592395356914683		SimpleArgument(We,List([0, 2)))	Relation(have,List([8, 12)))	SimpleArgument(a full retail store within River City Mfg,List([13, 54)))	We also have a full retail store within River City Mfg.

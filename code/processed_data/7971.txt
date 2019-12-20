@@ -1,0 +1,6 @@
+0.949419443712137		SimpleArgument(James Carl Dale,List([0, 15)))	Relation(is,List([40, 42)))	SimpleArgument(an American former Major League Baseball player,List([43, 90)))	James Carl Dale (born December 7, 1972) is an American former Major League Baseball player.
+0.949419443712137		SimpleArgument(James Carl Dale,List([0, 15)))	Relation(born,List([17, 21)))	TemporalArgument(December 7,List([22, 32)))	James Carl Dale (born December 7, 1972) is an American former Major League Baseball player.
+0.9446577635120826		SimpleArgument(Dale,List([11, 15)))	Relation(played,List([16, 22)))	TemporalArgument(A pitcher,List([0, 9)))	A pitcher, Dale played for the Milwaukee Brewers in 1999.
+0.7251886467849957		SimpleArgument(Dale,List([11, 15)))	Relation(played in,List([16, 22), [49, 51)))	TemporalArgument(1999,List([52, 56)))	A pitcher, Dale played for the Milwaukee Brewers in 1999.
+0.9324144673478683		SimpleArgument(Dale,List([11, 15)))	Relation(played for,List([16, 22), [23, 26)))	SimpleArgument(the Milwaukee Brewers,List([27, 48)))	A pitcher, Dale played for the Milwaukee Brewers in 1999.
+0.9324144673478683		SimpleArgument(Dale,List([0, 4)))	Relation(attended,List([5, 13)))	SimpleArgument(Winthrop University,List([14, 33)))	Dale attended Winthrop University.

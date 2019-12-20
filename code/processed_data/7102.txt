@@ -1,0 +1,2 @@
+0.9314904193639496		SimpleArgument(a national conservation group,List([67, 96)))	Relation(based in,List([97, 102), [103, 105)))	SpatialArgument(Montana,List([106, 113)))	Land Tawney is the President/CEO of Backcountry Hunters & Anglers, a national conservation group based in Montana.
+0.9527410621066101		SimpleArgument(Land Tawney,List([0, 11)))	Relation(is,List([12, 14)))	SimpleArgument(the President,List([15, 28)))	Land Tawney is the President/CEO of Backcountry Hunters & Anglers, a national conservation group based in Montana.

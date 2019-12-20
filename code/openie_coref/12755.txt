@@ -1,0 +1,4 @@
+0.9340463819568752		SimpleArgument(Peter Stöger,List([0, 12)))	Relation(is,List([34, 36)))	SimpleArgument(a retired Austrian footballer,List([37, 66)))	Peter Stöger (born 11 April 1966) is a retired Austrian footballer.
+0.9445721975409912		SimpleArgument(Peter Stöger,List([0, 12)))	Relation(born,List([14, 18)))	TemporalArgument(11 April 1966,List([19, 32)))	Peter Stöger (born 11 April 1966) is a retired Austrian footballer.
+0.4767059881480854		SimpleArgument(Peter Stöger Peter Stöger (born 11 April 1966),List([0, 2)))	Relation(is,List([3, 5)))	SimpleArgument(the head coach of 1,List([16, 35)))	He is currently the head coach of 1. FC Köln.
+0.22015391053105568		SimpleArgument(Peter Stöger Peter Stöger (born 11 April 1966),List([0, 2)))	Relation(is the head coach of 1,List([3, 5), [16, 35)))	TemporalArgument(currently,List([6, 15)))	He is currently the head coach of 1. FC Köln.

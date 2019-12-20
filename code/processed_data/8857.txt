@@ -1,0 +1,2 @@
+0.8847999636040884		SimpleArgument(He,List([0, 2)))	Relation(is a member of,List([3, 17)))	SimpleArgument(the Libya national football team,List([18, 50)))	He is a member of the Libya national football team.
+0.5680679595514976		SimpleArgument(He,List([0, 2)))	Relation(is,List([3, 5)))	SimpleArgument(a member of the Libya national football team,List([6, 50)))	He is a member of the Libya national football team.

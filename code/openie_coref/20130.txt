@@ -1,0 +1,3 @@
+0.9251282565798027		SimpleArgument(Millionaire Investor,List([0, 20)))	Relation(Is,List([22, 24)))	SimpleArgument(open to investor ideas,List([25, 47)))	Millionaire Investor  Is open to investor ideas.
+0.31693683731371314		SimpleArgument(one more,List([43, 51)))	Relation(to choose from,List([52, 61), [62, 66)))	SimpleArgument(www.castlegold.us,List([67, 84)))	Perfect Gift @ CastleGold  ... Vintage and Hand Crafted A Thousand and one more to choose from www.castlegold.us
+0.8675936798977921		SimpleArgument(Perfect Gift @ CastleGold ... Hand,List([0, 34)))	Relation(Crafted,List([35, 42)))	SimpleArgument(one more to choose from www.castlegold.us,List([43, 84)))	Perfect Gift @ CastleGold  ... Vintage and Hand Crafted A Thousand and one more to choose from www.castlegold.us

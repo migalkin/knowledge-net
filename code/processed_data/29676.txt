@@ -1,0 +1,4 @@
+0.32327592673134803		SimpleArgument(Neither of which,List([0, 16)))	Relation(am,List([19, 21)))	SimpleArgument(deserving of,List([24, 36)))	Neither of which, am I worthy or deserving of.
+0.32327592673134803		SimpleArgument(Neither of which,List([0, 16)))	Relation(am,List([19, 21)))	SimpleArgument(worthy,List([24, 30)))	Neither of which, am I worthy or deserving of.
+0.9143456855143793		SimpleArgument(South Louisville,List([0, 16)))	Relation(raised by,List([24, 30), [31, 33)))	SimpleArgument(a wonderful dad,List([34, 49)))	South Louisville born & raised by a wonderful dad Ken, my now deceased mom Nancy, & a repeatedly over achieving sister Kristy!
+0.831157403585408		SimpleArgument(South Louisville,List([0, 16)))	Relation(born,List([17, 21)))		South Louisville born & raised by a wonderful dad Ken, my now deceased mom Nancy, & a repeatedly over achieving sister Kristy!

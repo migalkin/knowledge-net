@@ -1,0 +1,5 @@
+0.9382554258342916		SimpleArgument(Harry Gibbs,List([0, 11)))	Relation(was born on,List([12, 20), [21, 23)))	TemporalArgument(March 21,List([24, 32)))	Harry Gibbs was born on March 21, 1917 in Wagon Mound, New Mexico, USA as Harry Cochran Gibbs.
+0.9045207649554154		SimpleArgument(an actor,List([7, 15)))	Relation(known for,List([18, 23), [24, 27)))	SimpleArgument(Tully ( 2000,List([28, 40)))	He was an actor, known for Tully (2000), Truman (1995) and Ride with the Devil (1999).
+0.5680679595514976		SimpleArgument(Harry Gibbs Harry Gibbs,List([0, 2)))	Relation(was,List([3, 6)))	SimpleArgument(an actor , known for Tully ( 2000 ),List([7, 42)))	He was an actor, known for Tully (2000), Truman (1995) and Ride with the Devil (1999).
+0.5680679595514976		SimpleArgument(Harry Gibbs Harry Gibbs,List([0, 2)))	Relation(was,List([3, 6)))	SimpleArgument(married to Jean Gibbs,List([7, 28)))	He was married to Jean Gibbs.
+0.4978219019954182		SimpleArgument(Harry Gibbs Harry Gibbs,List([0, 2)))	Relation(died on,List([3, 7), [8, 10)))	TemporalArgument(July 18, 2008 in Chesterfield, Missouri,List([11, 50)))	He died on July 18, 2008 in Chesterfield, Missouri, USA.

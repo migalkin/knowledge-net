@@ -1,0 +1,13 @@
+0.9008079614035324		SimpleArgument(John Allen Wetterich,List([34, 54)))	Relation(was born at,List([55, 63), [73, 75)))	SpatialArgument(birth place,List([76, 87)))	John Allen Wetterich, 1907 - 1961 John Allen Wetterich was born in 1907, at birth place.
+0.8306090960787457		SimpleArgument(John Allen Wetterich,List([34, 54)))	Relation(was born in,List([55, 63), [64, 66)))	TemporalArgument(1907,List([67, 71)))	John Allen Wetterich, 1907 - 1961 John Allen Wetterich was born in 1907, at birth place.
+0.949419443712137		SimpleArgument(Martha Ann Wetterich,List([13, 33)))	Relation(born,List([35, 39)))	TemporalArgument(Kamphaus,List([40, 48)))	John married Martha Ann Wetterich (born Kamphaus) on month day 1929, at age 22 at marriage place, Ohio.
+0.8606851077159242		SimpleArgument(John,List([0, 4)))	Relation(married Martha Ann Wetterich on,List([5, 12), [13, 33), [50, 52)))	TemporalArgument(month day 1929, at age 22 at marriage place,List([53, 96)))	John married Martha Ann Wetterich (born Kamphaus) on month day 1929, at age 22 at marriage place, Ohio.
+0.876543225140763		SimpleArgument(John,List([0, 4)))	Relation(married,List([5, 12)))	SimpleArgument(Martha Ann Wetterich,List([13, 33)))	John married Martha Ann Wetterich (born Kamphaus) on month day 1929, at age 22 at marriage place, Ohio.
+0.9000738595917936		SimpleArgument(Martha,List([0, 6)))	Relation(was born in,List([7, 15), [25, 27)))	SpatialArgument(USA,List([28, 31)))	Martha was born in 1909, in USA.
+0.8016573080327372		SimpleArgument(Martha,List([0, 6)))	Relation(was born in,List([7, 15), [16, 18)))	TemporalArgument(1909,List([19, 23)))	Martha was born in 1909, in USA.
+0.1770000010728836		SimpleArgument(They,List([0, 0)))	Relation(had children of,List([0, 0)))	SimpleArgument(2 other children,List(null))	They had 3 children: Bernard Allen Wetterich and 2 other children.
+0.515999972820282		SimpleArgument(They,List([0, 0)))	Relation(had children of,List([0, 0)))	SimpleArgument(3,List(null))	They had 3 children: Bernard Allen Wetterich and 2 other children.
+0.6798722766377173		SimpleArgument(They,List([0, 4)))	Relation(had,List([5, 8)))	SimpleArgument(3 children,List([9, 19)))	They had 3 children: Bernard Allen Wetterich and 2 other children.
+0.7939138237950305		SimpleArgument(John,List([0, 4)))	Relation(passed away at,List([5, 16), [26, 28)))	TemporalArgument(age 54,List([29, 35)))	John passed away in 1961, at age 54.
+0.6753309180785847		SimpleArgument(John,List([0, 4)))	Relation(passed away in,List([5, 16), [17, 19)))	TemporalArgument(1961,List([20, 24)))	John passed away in 1961, at age 54.
+0.45170382506656653		SimpleArgument(He,List([0, 2)))	Relation(was buried at,List([3, 13), [14, 16)))	SimpleArgument(burial place,List([17, 29)))	He was buried at burial place.

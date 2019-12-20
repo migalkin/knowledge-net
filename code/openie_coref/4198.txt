@@ -1,0 +1,1 @@
+0.9105129651916236		SimpleArgument(Share,List([0, 5)))	Relation(Become,List([8, 14)))	SimpleArgument(a Fan EDM / Electro / Dubstep Ann Arbor,List([15, 54)))	Share   Become a Fan EDM / Electro / Dubstep Ann Arbor, MI

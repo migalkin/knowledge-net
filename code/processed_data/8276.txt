@@ -1,0 +1,7 @@
+0.9670538616899376		SimpleArgument(Corsica,List([0, 7)))	Relation(is,List([8, 10)))	SimpleArgument(a borough in Jefferson County, Pennsylvania, United States,List([11, 69)))	Corsica is a borough in Jefferson County, Pennsylvania, United States.
+0.12800000607967377		SimpleArgument(the 2000 census,List([0, 0)))	Relation(had The population of,List([0, 0)))	SimpleArgument(354,List(null))	The population was 354 at the 2000 census.
+0.9030401971054747		SimpleArgument(The population,List([0, 14)))	Relation(was 354 at,List([15, 18), [19, 22), [23, 25)))	SpatialArgument(the 2000 census,List([26, 41)))	The population was 354 at the 2000 census.
+0.8132903905488816		SimpleArgument(The population,List([0, 14)))	Relation(was,List([15, 18)))	SimpleArgument(354,List([19, 22)))	The population was 354 at the 2000 census.
+0.4978219019954182		SimpleArgument(It,List([0, 2)))	Relation(was named for,List([3, 12), [13, 16)))	SimpleArgument(the Island of Corsica,List([17, 38)))	It was named for the Island of Corsica, birthplace of Napoleon Bonaparte.
+0.4953178616921359		SimpleArgument(Dave Leadbetter,List([24, 39)))	Relation(is The mayor of,List([0, 12)))	SimpleArgument(Corsica,List([13, 20)))	The mayor of Corsica is Dave Leadbetter.
+0.9607199668152148		SimpleArgument(The mayor of Corsica,List([0, 20)))	Relation(is,List([21, 23)))	SimpleArgument(Dave Leadbetter,List([24, 39)))	The mayor of Corsica is Dave Leadbetter.

@@ -1,0 +1,1 @@
+0.9569065201547587		SimpleArgument(Baptist Health Systems,List([0, 22)))	Relation(is,List([23, 25)))	SimpleArgument(the parent company of Baptist Medical Center,List([26, 70)))	Baptist Health Systems is the parent company of Baptist Medical Center, The Mississippi Hospital for Restorative Care and a number of related healthcare services and programs.

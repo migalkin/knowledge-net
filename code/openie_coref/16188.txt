@@ -1,0 +1,1 @@
+0.9445721975409912		SimpleArgument(Daniel Jones,List([0, 12)))	Relation(was,List([54, 57)))	SimpleArgument(a British Labour Party politician,List([58, 91)))	Daniel Jones (26 September 1908 – 19 February 1985) was a British Labour Party politician, and Member of Parliament (MP) for Burnley from 1959 to 1983.

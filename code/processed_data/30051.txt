@@ -1,0 +1,3 @@
+0.9445721975409912		SimpleArgument(Catherine Seeley,List([0, 16)))	Relation(is,List([41, 43)))	SimpleArgument(a Sinn Féin politician from Northern Ireland,List([44, 88)))	Catherine Seeley (born 26 November 1987) is a Sinn Féin politician from Northern Ireland.
+0.9445721975409912		SimpleArgument(Catherine Seeley,List([0, 16)))	Relation(born,List([18, 22)))	TemporalArgument(26 November 1987,List([23, 39)))	Catherine Seeley (born 26 November 1987) is a Sinn Féin politician from Northern Ireland.
+0.5680679595514976		SimpleArgument(She,List([0, 3)))	Relation(was,List([4, 7)))	SimpleArgument(an MLA for Upper Bann,List([8, 29)))	She was an MLA for Upper Bann from the 2016 election until 2017.

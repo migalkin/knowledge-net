@@ -1,0 +1,1 @@
+0.9607199668152148		SimpleArgument(Plas Newydd Care Ltd,List([0, 20)))	Relation(is,List([21, 23)))	SimpleArgument(the parent company for Mumbles Nursing Home,List([24, 67)))	Plas Newydd Care Ltd is the parent company for Mumbles Nursing Home, Yr Hafan Nursing Home and Plas Newydd Care Home.

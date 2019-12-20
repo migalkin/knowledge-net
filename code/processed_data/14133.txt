@@ -1,0 +1,1 @@
+0.957934389168857		SimpleArgument(Anne Casimir Pyrame de Candolle,List([0, 31)))	Relation(was,List([93, 96)))	SimpleArgument(a Swiss botanist,List([97, 113)))	Anne Casimir Pyrame de Candolle (20 February 1836, Geneva – 3 October 1918, Chêne-Bougeries) was a Swiss botanist, the son of Alphonse Pyrame de Candolle.

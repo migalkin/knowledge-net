@@ -1,0 +1,1 @@
+0.949419443712137		SimpleArgument(Thomas Christopher Boyd,List([0, 23)))	Relation(was,List([57, 60)))	SimpleArgument(a British Labour Party politician,List([61, 94)))	Thomas Christopher Boyd (14 August 1916 – 15 March 2004) was a British Labour Party politician.

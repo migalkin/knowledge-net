@@ -1,0 +1,2 @@
+0.9527410621066101		SimpleArgument(Yellow Media,List([0, 12)))	Relation(is,List([13, 15)))	SimpleArgument(the official publisher of Yellow Pages,List([16, 54)))	Yellow Media is the official publisher of Yellow Pages branded products in Egypt.
+0.9392901325936276		SimpleArgument(Egypt,List([0, 5)))	Relation(is,List([41, 43)))	SimpleArgument(the exclusive owner of the Yellow Pages™,List([44, 84)))	Egypt Yellow Pages Ltd- founded in 1991- is the exclusive owner of the Yellow Pages™, Walking Fingers & Design™, Yellow.com.eg™,

@@ -5,6 +5,15 @@ import codecs
 from pathlib import Path
 from tqdm import tqdm
 import io
+import spacy
+import neuralcoref
+import csv
+import re
+from spacy.matcher import PhraseMatcher
+
+nlp = spacy.load('en_core_web_lg')
+neuralcoref.add_to_pipe(nlp)
+pattern = re.compile("(?<=\().*(?=\))")
 
 class QueryEngine:
     """
@@ -130,15 +139,134 @@ class Parser:
                 print("Dump is stored in relations.json")
         return list(relations)
 
+    def save_abstracts(self, save=False):
+        """
+        :return: a dictionary of id:abstract of a data point in natural language
+        """
+        Path('./raw_texts').mkdir(parents=True, exist_ok=True)
+        p = Path('./raw_texts')
+        abstracts = {}
+        for sample in self.source:
+            id = sample['documentId']
+            text = sample['documentText'].replace("“","\"").replace("”","\"").replace("’","\'")
+            abstracts[id] = text
+            if save:
+                with open(p / f"{str(id)}.txt", "w") as output:
+                    output.write(text)
+
+        if save:
+            print("Saved in the raw_texts directory")
+        return abstracts
+
+
+def save_corefs(abstracts):
+    Path('./coref').mkdir(parents=True, exist_ok=True)
+    p = Path("./coref")
+    for id in list(abstracts.keys()):
+        with open(p / f"{id}.txt", "w") as output:
+            doc = nlp(abstracts[id])
+            output.write(str(doc._.coref_clusters))
+
+    print("Done")
+
+
+def find_main_coref(clusters, text):
+    for i in clusters:
+        mentions = [k.text for k in i.mentions]
+        if text in mentions:
+            return i.main.text
+    return None
+
+def map_ie_coref(abstracts):
+    Path('./openie_coref').mkdir(parents=True, exist_ok=True)
+    out_path = Path("./openie_coref")
+    openie_path = Path("./processed_data")
+    available_files = [str(i) for i in openie_path.glob("*.txt")]
+
+    for id in tqdm(list(abstracts.keys())):
+        if f"{openie_path}/{id}.txt" not in available_files:
+            continue
+
+        text = abstracts[id].replace("\n\n", " ").replace("\n", " ")  # get rid of \n in the beginning
+        doc = nlp(text)
+        coref_clusters = doc._.coref_clusters
+
+        # load openie output
+        with open(openie_path / f"{id}.txt", newline="") as oi, open(out_path / f"{id}.txt", "w", newline="") as res:
+            triples = csv.reader(oi, delimiter="\t", quoting=csv.QUOTE_NONE)
+            csv_w = csv.writer(res, delimiter="\t")
+            """
+            columns in each file
+            0(confidence) 1(context) 2(subject) 3(predicate) 4(object) 5(sentence) 
+            """
+            for t in triples:
+                # prune non-triples
+                if t[2] == "" or t[4] == "":
+                    continue
+                s = pattern.search(t[2]).group(0).split(",List")[0]
+                o = pattern.search(t[4]).group(0).split(",List")[0]
+
+                # get annotated sentence in spacy doc
+                sent = t[5].replace("\n\n", " ").strip()
+                spacy_p = [nlp.make_doc(sent)]
+                matcher = PhraseMatcher(nlp.vocab, attr="LOWER")
+                matcher.add("SomeList", None, *spacy_p)
+                matches = matcher(doc)  # should be only one match (sentence)
+                _, ms, me = matches[0]
+                sent_span = doc[ms:me]
+
+                # find s / o pattern as a span in the spacy doc
+                match_s, match_o = [nlp.make_doc(s)], [nlp.make_doc(o)]
+                matcher_entities_s, matcher_entities_o = PhraseMatcher(nlp.vocab, attr="LOWER"), PhraseMatcher(nlp.vocab, attr="LOWER")
+                matcher_entities_s.add("Entities_s", None, *match_s)
+                matcher_entities_o.add("Entities_o", None, *match_o)
+                matches_s = matcher_entities_s(nlp.make_doc(sent_span.text))
+                matches_o = matcher_entities_o(nlp.make_doc(sent_span.text))
+                if len(matches_s) > 0:
+                    _, sub_start, sub_end = matches_s[0]  # if not None - should be always 1
+                    final_s = doc[ms+sub_start:ms+sub_end]
+                    coref_s = final_s._.coref_cluster  # link to the main doc and find a coref of that span
+                    if coref_s is not None:
+                        main_s = coref_s.main.text
+                        t[2] = t[2].replace(s, main_s)
+
+                if len(matches_o) > 0:
+                    _, ob_start, ob_end = matches_o[0]  # if not None - should be always 1
+                    final_o = doc[ms+ob_start:ms+ob_end]
+                    coref_o = final_o._.coref_cluster  # link to the main doc and find a coref of that span
+                    if coref_o is not None:
+                        main_o = coref_o.main.text
+                        t[4] = t[4].replace(o, main_o)
+
+                csv_w.writerow(t)
+
+
+
+
+        # process each line and replace possible subject / object with the main coref cluster label (if exists)
+
+
+
+
+
+def resolve_coref(text):
+    doc = nlp(text)
+    print(doc._.has_coref)
+    print(doc._.coref_clusters)
+
+
 
 
 if __name__ == "__main__":
     train_file = Path("../train.json")
     parser = Parser(train_file)
-    engine = QueryEngine("https://query.wikidata.org/sparql")
-    entities = parser.collect_entities()
-    relations = parser.collect_relations()
-    engine.extract_wikidata_subgraph(entities)
+    abstracts = parser.save_abstracts()
+    map_ie_coref(abstracts)
+
+    # engine = QueryEngine("https://query.wikidata.org/sparql")
+    # entities = parser.collect_entities()
+    # relations = parser.collect_relations()
+    # engine.extract_wikidata_subgraph(entities)
 
 
 

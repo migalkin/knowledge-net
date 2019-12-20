@@ -1,0 +1,4 @@
+0.45694023613443424	Context(I m,List([0, 3)))	SimpleArgument(I,List({69}))	Relation(m,List({71}))	SimpleArgument(an easy going person,List([73, 93)))	I m a female a native of Ogun state born on bought up in lagos state I m an easy going person
+0.4328394458044063		SimpleArgument(I,List({0}))	Relation(m a female,List({2}, [4, 12)))	SimpleArgument(a native of Ogun state,List([13, 35)))	I m a female a native of Ogun state born on bought up in lagos state I m an easy going person
+0.45694023613443424		SimpleArgument(I,List({0}))	Relation(m,List({2}))	SimpleArgument(a female,List([4, 12)))	I m a female a native of Ogun state born on bought up in lagos state I m an easy going person
+0.9344893211562376		SimpleArgument(a native of Ogun state,List([13, 35)))	Relation(bought up in,List([44, 53), [54, 56)))	SpatialArgument(lagos state,List([57, 68)))	I m a female a native of Ogun state born on bought up in lagos state I m an easy going person

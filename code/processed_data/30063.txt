@@ -1,0 +1,2 @@
+0.9538634956324158		SimpleArgument(Malcolm Campbell - Johnston,List([0, 27)))	Relation(was,List([62, 65)))	SimpleArgument(Conservative Party politician,List([66, 95)))	Malcolm Campbell-Johnston (14 April 1871 – 12 March 1938) was a British barrister and Conservative Party politician.
+0.9449993708870406		SimpleArgument(Malcolm Campbell - Johnston,List([0, 27)))	Relation(was,List([62, 65)))	SimpleArgument(a British barrister,List([66, 85)))	Malcolm Campbell-Johnston (14 April 1871 – 12 March 1938) was a British barrister and Conservative Party politician.

@@ -1,0 +1,7 @@
+0.957934389168857		SimpleArgument(HAY-gə-mun,List([22, 32)))	Relation(is,List([34, 36)))	SimpleArgument(a village in Montgomery County, New York,List([37, 77)))	Hagaman (/ˈheɪɡəmʌn/; HAY-gə-mun) is a village in Montgomery County, New York, United States.
+0.12800000607967377		SimpleArgument(the 2010 census,List([0, 0)))	Relation(had The population of,List([0, 0)))	SimpleArgument(1292,List(null))	The population was 1,292 at the 2010 census.
+0.9729999899864197		SimpleArgument(The population,List([0, 0)))	Relation(was,List([0, 0)))	SimpleArgument(1292,List(null))	The population was 1,292 at the 2010 census.
+0.9030401971054747		SimpleArgument(The population,List([0, 14)))	Relation(was 1,292 at,List([15, 18), [19, 24), [25, 27)))	SpatialArgument(the 2010 census,List([28, 43)))	The population was 1,292 at the 2010 census.
+0.8132903905488816		SimpleArgument(The population,List([0, 14)))	Relation(was,List([15, 18)))	SimpleArgument(1,292,List([19, 24)))	The population was 1,292 at the 2010 census.
+0.4978219019954182		SimpleArgument(It,List([0, 2)))	Relation(is named after,List([3, 11), [12, 17)))	SimpleArgument(Joseph Hagaman,List([18, 32)))	It is named after Joseph Hagaman, the founding father.
+0.9672828900016419		SimpleArgument(The Village of Hagaman,List([0, 22)))	Relation(is in,List([23, 25), [26, 28)))	SimpleArgument(the Town of Amsterdam, northeast of the City of Amsterdam,List([29, 86)))	The Village of Hagaman is in the Town of Amsterdam, northeast of the City of Amsterdam.

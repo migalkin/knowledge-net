@@ -1,0 +1,2 @@
+0.22506131975927415		SimpleArgument(Credito Italiano Credito Italiano,List([0, 2)))	Relation(was merged with Unicredito in,List([3, 13), [14, 29), [30, 32)))	TemporalArgument(1998,List([33, 37)))	It was merged with Unicredito in 1998, forming Unicredito Italiano (now UniCredit).
+0.4978219019954182		SimpleArgument(Credito Italiano Credito Italiano,List([0, 2)))	Relation(was merged with,List([3, 13), [14, 18)))	SimpleArgument(Unicredito,List([19, 29)))	It was merged with Unicredito in 1998, forming Unicredito Italiano (now UniCredit).

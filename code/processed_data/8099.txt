@@ -1,0 +1,4 @@
+0.9436740204769645		SimpleArgument(Kishwer Zehra,List([0, 13)))	Relation(is,List([14, 16)))	SimpleArgument(a parliamentarian,List([17, 34)))	Kishwer Zehra is a Pakistani politician, and parliamentarian.
+0.9436740204769645		SimpleArgument(Kishwer Zehra,List([0, 13)))	Relation(is,List([14, 16)))	SimpleArgument(a Pakistani politician,List([17, 39)))	Kishwer Zehra is a Pakistani politician, and parliamentarian.
+0.6138676038426771		SimpleArgument(She,List([0, 3)))	Relation(was elected,List([4, 15)))	SimpleArgument(a member of national assembly on a on reserved seats for women from Sindh in Pakistani general election,List([16, 119)))	She was elected a member of national assembly on a on reserved seats for women from Sindh in Pakistani general election, 2013.
+0.4978219019954182		SimpleArgument(She,List([0, 3)))	Relation(is afflilated with,List([4, 17), [18, 22)))	SimpleArgument(Muttahida Qaumi Movement,List([23, 47)))	She is afflilated with Muttahida Qaumi Movement.

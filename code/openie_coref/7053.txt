@@ -1,0 +1,2 @@
+0.9582631324958855		SimpleArgument(Mark Langhorn Coombs (born April 1960,List([0, 37)))	Relation(is,List([39, 41)))	SimpleArgument(a British billionaire businessman,List([42, 75)))	Mark Langhorn Coombs (born April 1960) is a British billionaire businessman, CEO of the Ashmore Group.
+0.949419443712137		SimpleArgument(Mark Langhorn Coombs,List([0, 20)))	Relation(born,List([22, 26)))	TemporalArgument(April 1960,List([27, 37)))	Mark Langhorn Coombs (born April 1960) is a British billionaire businessman, CEO of the Ashmore Group.

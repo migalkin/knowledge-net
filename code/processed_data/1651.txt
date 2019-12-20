@@ -1,0 +1,3 @@
+0.9436740204769645		SimpleArgument(Interscope Records,List([0, 18)))	Relation(is,List([19, 21)))	SimpleArgument(an American major record label,List([22, 52)))	Interscope Records is an American major record label.
+0.38089450366724514		SimpleArgument(Universal Music Group,List([67, 88)))	Relation([is] a subsidiary of,List([90, 105)))	SimpleArgument(Vivendi SA,List([106, 116)))	An imprint of Interscope Geffen A&M Records, its parent company is Universal Music Group, a subsidiary of Vivendi SA.
+0.7561205229075092		SimpleArgument(its parent company,List([45, 63)))	Relation(is,List([64, 66)))	SimpleArgument(Universal Music Group,List([67, 88)))	An imprint of Interscope Geffen A&M Records, its parent company is Universal Music Group, a subsidiary of Vivendi SA.

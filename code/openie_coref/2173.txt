@@ -1,0 +1,2 @@
+0.9527410621066101		SimpleArgument(Laurent Kratz,List([0, 13)))	Relation(is,List([14, 16)))	SimpleArgument(an Internet Entrepreneur,List([17, 41)))	Laurent Kratz is an Internet Entrepreneur, Founder of several start-ups.
+0.8974996057989925		SimpleArgument(The two main company creations in the Luxembourg area,List([0, 53)))	Relation(were,List([54, 58)))	SimpleArgument(www.lesfrontaliers.lu,List([59, 80)))	The two main company creations in the Luxembourg area were www.lesfrontaliers.lu

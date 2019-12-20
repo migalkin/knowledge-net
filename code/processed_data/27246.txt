@@ -1,0 +1,4 @@
+0.957242937750614		SimpleArgument(Voice of Loving Hong Kong,List([0, 25)))	Relation(is,List([26, 28)))	SimpleArgument(a pressure group,List([29, 45)))	Voice of Loving Hong Kong is a pro-Beijing camp organisation and pressure group.
+0.957242937750614		SimpleArgument(Voice of Loving Hong Kong,List([0, 25)))	Relation(is,List([26, 28)))	SimpleArgument(a pro-Beijing camp organisation,List([29, 60)))	Voice of Loving Hong Kong is a pro-Beijing camp organisation and pressure group.
+0.45170382506656653		SimpleArgument(It,List([0, 2)))	Relation(organises,List([3, 12)))	SimpleArgument(counter-demonstrations,List([13, 35)))	It organises rallies and counter-demonstrations in opposition to anti-government and anti-Beijing demonstrations.
+0.45170382506656653		SimpleArgument(It,List([0, 2)))	Relation(organises,List([3, 12)))	SimpleArgument(rallies,List([13, 20)))	It organises rallies and counter-demonstrations in opposition to anti-government and anti-Beijing demonstrations.

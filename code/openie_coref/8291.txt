@@ -1,0 +1,3 @@
+0.8488392341240523		SimpleArgument(people,List([26, 32)))	Relation(lived from,List([37, 42), [55, 59)))	TemporalArgument(37 BCE - 668 CE,List([60, 75)))	This is a partial list of people who lived in Goguryeo from 37 BCE-668 CE and those of Goguryeo descent.
+0.8958428165666725		SimpleArgument(people,List([26, 32)))	Relation(lived in,List([37, 42), [43, 45)))	SpatialArgument(Goguryeo,List([46, 54)))	This is a partial list of people who lived in Goguryeo from 37 BCE-668 CE and those of Goguryeo descent.
+0.449300176227255		SimpleArgument(This,List([0, 4)))	Relation(is,List([5, 7)))	SimpleArgument(a partial list of people,List([8, 32)))	This is a partial list of people who lived in Goguryeo from 37 BCE-668 CE and those of Goguryeo descent.

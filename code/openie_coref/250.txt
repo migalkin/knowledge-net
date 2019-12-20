@@ -1,0 +1,1 @@
+0.8847641879927497		SimpleArgument(CPC,List([13, 16)))	Relation([is] Bishop [of],List([6, 12)))	SimpleArgument(Frank,List([0, 5)))	Frank Bishop CPC
