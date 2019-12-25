@@ -158,6 +158,35 @@ class Parser:
             print("Saved in the raw_texts directory")
         return abstracts
 
+    def add_coref(self, save=False):
+        """
+        Adding coref to passages without explicit subject URI
+        :return: each sample might have an additional field 'coref', new file is saved under train_wcoref.json
+        """
+        print("Adding coref to passages without explicit subjectURI")
+        resolved = 0
+        for sample in tqdm(self.source):
+            text = sample['documentText']
+            doc = nlp(text)
+            #print(doc._.coref_clusters)
+            for passage in sample['passages']:
+                for fact in passage['facts']:
+                    if fact['subjectUri'] == "":
+                        subject = fact['subjectText']
+                        # now lets find the subject text in the doc and find if it has any coref clusters
+                        sub_span = doc.char_span(fact['subjectStart'], fact['subjectEnd'])  # can be evaluated to None in some rare cases
+                        if sub_span:
+                            sub_coref = sub_span._.coref_cluster
+                            if sub_coref is not None:
+                                fact['coref'] = sub_coref.main.text
+                                resolved += 1
+
+        print(f"Resolved {resolved} facts")
+        if save:
+            json.dump(self.source, open('train_wcoref.json',"w"), ensure_ascii=False, indent=4)
+            print("Saved under train_wcoref.json")
+
+
 
 def save_corefs(abstracts):
     Path('./coref').mkdir(parents=True, exist_ok=True)
@@ -245,8 +274,21 @@ def map_ie_coref(abstracts):
 
         # process each line and replace possible subject / object with the main coref cluster label (if exists)
 
+def read_mappings():
+    mappings = json.load(open("mappings.json", "r"))
+    properties = [item for sublist in list(mappings.values()) for item in sublist]
+    return properties
 
 
+def filter_dump():
+    maps = read_mappings()
+    with open("wikidata_dump.nt", "r") as source, open("wikidata_filtered.nt", "w") as output:
+        for line in source:
+            for p in maps:
+                if f"<{p}>" in line:
+                    output.write(line)
+
+    print("Done")
 
 
 def resolve_coref(text):
@@ -260,12 +302,9 @@ def resolve_coref(text):
 if __name__ == "__main__":
     train_file = Path("../train.json")
     parser = Parser(train_file)
-    abstracts = parser.save_abstracts()
-    map_ie_coref(abstracts)
-
+    parser.add_coref(save=True)
     # engine = QueryEngine("https://query.wikidata.org/sparql")
     # entities = parser.collect_entities()
-    # relations = parser.collect_relations()
     # engine.extract_wikidata_subgraph(entities)
 
 

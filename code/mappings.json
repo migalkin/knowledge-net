@@ -1,0 +1,50 @@
+{
+"EDUCATED_AT": [
+  "http://www.wikidata.org/prop/direct/P69"
+],
+"SUBSIDIARY_OF": [
+  "http://www.wikidata.org/prop/direct/P749"
+],
+"DATE_OF_DEATH": [
+  "http://www.wikidata.org/prop/direct/P570"
+],
+"NATIONALITY": [
+  "http://www.wikidata.org/prop/direct/P27"
+],
+"CEO": [
+  "http://www.wikidata.org/prop/direct/P169"
+],
+"HEADQUARTERS" : [
+  "http://www.wikidata.org/prop/direct/P159"
+],
+"FOUNDED_BY" : [
+  "http://www.wikidata.org/prop/direct/P112"
+],
+"SPOUSE" : [
+  "http://www.wikidata.org/prop/direct/P26"
+],
+"EMPLOYEE_OR_MEMBER_OF" : [
+  "http://www.wikidata.org/prop/direct/P108",
+  "http://www.wikidata.org/prop/direct/P463"
+],
+"DATE_FOUNDED" : [
+  "http://www.wikidata.org/prop/direct/P571"
+],
+"PLACE_OF_RESIDENCE" : [
+  "http://www.wikidata.org/prop/direct/P551",
+  "http://www.wikidata.org/prop/direct/P937"
+],
+"POLITICAL_AFFILIATION" : [
+  "http://www.wikidata.org/prop/direct/P102"
+],
+"PLACE_OF_BIRTH" : [
+  "http://www.wikidata.org/prop/direct/P19"
+],
+"DATE_OF_BIRTH" : [
+  "http://www.wikidata.org/prop/direct/P569"
+],
+"CHILD_OF" : [
+  "http://www.wikidata.org/prop/direct/P22",
+  "http://www.wikidata.org/prop/direct/P25"
+]
+}
