@@ -164,7 +164,8 @@ class Parser:
         :return: each sample might have an additional field 'coref', new file is saved under train_wcoref.json
         """
         print("Adding coref to passages without explicit subjectURI")
-        resolved = 0
+        resolved_s = 0
+        resolved_o = 0
         for sample in tqdm(self.source):
             text = sample['documentText']
             doc = nlp(text)
@@ -178,10 +179,17 @@ class Parser:
                         if sub_span:
                             sub_coref = sub_span._.coref_cluster
                             if sub_coref is not None:
-                                fact['coref'] = sub_coref.main.text
-                                resolved += 1
+                                fact['coref_s'] = sub_coref.main.text
+                                resolved_s += 1
+                    if fact['objectUri'] == "":
+                        obj_span = doc.char_span(fact['objectStart'], fact['objectEnd'])
+                        if obj_span:
+                            obj_coref = obj_span._.coref_cluster
+                            if obj_coref:
+                                fact['coref_o'] = obj_coref.main.text
+                                resolved_o += 1
 
-        print(f"Resolved {resolved} facts")
+        print(f"Resolved {resolved_s} subjects and {resolved_o} objects")
         if save:
             json.dump(self.source, open('train_wcoref.json',"w"), ensure_ascii=False, indent=4)
             print("Saved under train_wcoref.json")
